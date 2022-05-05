@@ -70,6 +70,13 @@ section {
   max-width: 50rem;
   line-height: 2;
 }
+.heading p2 {
+  margin: 1rem auto;
+  font-size: 1.3rem;
+  color: #777;
+  max-width: 50rem;
+  line-height: 2;
+}
 
 @-webkit-keyframes fadeUp {
   0% {
@@ -749,8 +756,9 @@ section {
 }
 
 .service .box {
-  border: 0.2rem solid #222;
+  border: 0.2rem solid rgb(163, 163, 163);
   padding: 2rem;
+  border-radius: 5px;
   text-align: center;
   background: #fff;
 }
@@ -1015,7 +1023,7 @@ section {
     top: 0;
     left: 0;
     width: 100%;
-    background: rgba(255, 255, 255, 0.7);
+    background-image: "https://cdn.discordapp.com/attachments/933499827638124575/971806629752352788/unknown.png";
     height: 100%;
     -webkit-box-align: center;
         -ms-flex-align: center;
